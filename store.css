@@ -141,21 +141,24 @@ header {
   flex-direction: column;
   gap: 24px;
 }
-.section3-1 p {
-  line-height: 32px;
-  font-size: 24px;
-  font-weight: 700;
-}
+
 .linear-gradient {
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .grey {
   color: #6e6e73;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 700;
 }
-.section3-1 {
+.section3-1,
+.section4-1 {
   display: flex;
   gap: 4px;
 }
@@ -207,15 +210,19 @@ body {
   padding-bottom: 100px;
 }
 .section4 {
-  padding: 0 140px 60px 140px;
+  padding: 0 0px 60px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .section4-2 {
   display: flex;
   gap: 20px;
+  overflow-x: scroll;
 }
 .section4-2-0 {
   background-image: url("./images/airpods-ad.jpg");
-  width: 400px;
+  min-width: 400px;
   min-height: 500px;
   background-size: contain;
   padding: 53px 0 0 30px;
@@ -229,6 +236,7 @@ body {
   color: #b64400;
   font-size: 12px;
   font-weight: 700;
+  margin-top: 58px;
 }
 .name-section4 {
   font-size: 18px;
@@ -242,4 +250,14 @@ body {
 .section4-2 img {
   height: 230px;
   width: 230px;
+}
+.section4-2-1,
+.section4-2-2,
+.section4-2-3,
+.section4-2-4,
+.section4-2-5 {
+  padding: 71px 28px 32px 28px;
+  width: 313px;
+  height: 500px;
+  background-color: white;
 }
