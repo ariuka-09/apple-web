@@ -162,6 +162,10 @@ header {
   display: flex;
   gap: 4px;
 }
+/* .section4-1-special {
+  display: flex;
+  flex-direction: column;
+} */
 .apple-intelligence {
   color: #b64400;
   font-size: 12px;
@@ -228,6 +232,7 @@ body {
   background-size: contain;
   padding: 53px 0 0 30px;
   border-radius: 18px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
 }
 .section4-2-0 p,
 .section5-2-0 p {
@@ -272,6 +277,7 @@ body {
   height: 500px;
   background-color: white;
   border-radius: 18px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
 }
 .section5-2-0 {
   background-image: url("./images/section5-0.jpg");
@@ -283,4 +289,142 @@ body {
 }
 .blank {
   height: 15px;
+}
+.section6-2 {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.section6-2-1 {
+  background-image: url("./images/section6-1.jpg");
+  min-width: 480px;
+  height: 500px;
+  padding: 50px 0 0 30px;
+  background-size: cover;
+
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
+  border-radius: 18px;
+}
+.section6-2-1-text {
+  font-size: 26px;
+  font-weight: 700;
+}
+.section6-2-1 p {
+  width: 305px;
+  height: 130px;
+}
+.section6-2-2 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 646px;
+
+  gap: 20px;
+}
+.section6-2-2 div {
+  width: 313px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
+}
+.section6-2-2-1 p {
+  width: 237px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.section6-2-3 {
+  background-image: url("./images/section6-2.jpg");
+  background-size: contain;
+  padding: 31px 0 0 30px;
+  border-radius: 18px;
+  min-width: 480px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
+}
+.section6-2-4 {
+  background-image: url("./images/section6-3.jpg");
+  background-size: contain;
+  min-width: 480px;
+  padding: 31px 0 0 30px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
+}
+
+.grey-small {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  margin-bottom: 9px;
+}
+.section7-2 {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.section7-2 div {
+  min-width: 480px;
+  height: 500px;
+  box-shadow: 5px 5px 10px rgb(225, 223, 223);
+  border-radius: 18px;
+  padding: 32px 0 0 30px;
+}
+.section7-2-1 p:nth-last-child(1) {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.section7-2-1 {
+  background-image: url("./images/section7-1.jpg");
+  background-size: contain;
+}
+.section7-2-2 {
+  background-image: url("./images/section7-2.png");
+  background-size: contain;
+}
+.section7-2-3 {
+  background-image: url("./images/section7-3.jpg");
+  background-size: contain;
+}
+.section7-2-4 {
+  background-image: url("./images/section7-4.jpg");
+  background-size: contain;
+}
+.section8-2 {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.section8-2-1 {
+  min-width: 400px;
+  height: 500px;
+  background-size: contain;
+  padding: 31px 0 0 30px;
+  border-radius: 18px;
+}
+.section8-2-1-text {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+.links {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 140px;
+}
+.container {
+  display: flex;
+  gap: 12px;
+  margin-left: 140px;
+}
+.container div {
+  border-radius: 25px 25px 25px 25px;
+  border: #000 1px solid;
+  display: flex;
+  margin-top: 24px;
+  padding: 10px 12px;
+  background-color: transparent;
+  gap: 8px;
 }
