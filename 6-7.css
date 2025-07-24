@@ -1072,9 +1072,9 @@ body:has(#ad5:target) .bullets1 :nth-child(5) {
   .coach {
     display: none;
   } */
-  .experiment {
-    background-color: aqua;
-    width: 100%;
-    height: 500px;
-  }
+}
+.experiment {
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
 }

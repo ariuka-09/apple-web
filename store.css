@@ -215,6 +215,7 @@ body {
   flex-direction: column;
   gap: 24px;
 }
+
 .section4-2 {
   display: flex;
   gap: 20px;
@@ -228,7 +229,8 @@ body {
   padding: 53px 0 0 30px;
   border-radius: 18px;
 }
-.section4-2-0 p {
+.section4-2-0 p,
+.section5-2-0 p {
   font-size: 26px;
   font-weight: 700;
 }
@@ -241,11 +243,20 @@ body {
 .name-section4 {
   font-size: 18px;
   font-weight: 700;
-  margin: 6px 0 52px 0;
+  margin: 6px 0 0 0;
+  height: 74px;
+}
+.name-section5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 6px 0 0 0;
+  height: 74px;
 }
 .price-section4 {
+  display: flex;
+  align-items: end;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 300;
 }
 .section4-2 img {
   height: 230px;
@@ -257,12 +268,19 @@ body {
 .section4-2-4,
 .section4-2-5 {
   padding: 71px 28px 32px 28px;
-  width: 313px;
+  min-width: 313px;
   height: 500px;
   background-color: white;
+  border-radius: 18px;
 }
-.experiment{
-  width: 100%;
-  height: 500px;
-  ba
+.section5-2-0 {
+  background-image: url("./images/section5-0.jpg");
+  min-width: 400px;
+  min-height: 500px;
+  background-size: contain;
+  padding: 53px 0 0 30px;
+  border-radius: 18px;
+}
+.blank {
+  height: 15px;
 }
